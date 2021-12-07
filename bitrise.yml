@@ -111,6 +111,7 @@ workflows:
             - project_location: $PROJECT_LOCATION
             - variant: $VARIANT
       - deploy-to-bitrise-io@2: {}
+      - bitrise-step-export-universal-apk@0: {}
       - appium-server@0: {}
       - virtual-device-testing-for-android@1: {}
       - cache-push@2: {}
