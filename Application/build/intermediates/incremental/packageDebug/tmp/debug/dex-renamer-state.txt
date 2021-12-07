@@ -1,0 +1,4 @@
+#Tue Dec 07 15:42:35 CST 2021
+base.0=/Users/yinall/AndroidStudioProjects/BasicTransition/Application/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
