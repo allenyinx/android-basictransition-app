@@ -102,16 +102,8 @@ workflows:
       - install-missing-android-tools@2:
           inputs:
             - gradlew_path: $PROJECT_LOCATION/gradlew
-      - android-lint@0:
-          inputs:
-            - project_location: $PROJECT_LOCATION
-            - variant: $VARIANT
-      - android-unit-test@1:
-          inputs:
-            - project_location: $PROJECT_LOCATION
-            - variant: $VARIANT
+      - android-build@1: {}
       - deploy-to-bitrise-io@2: {}
-      - bitrise-step-export-universal-apk@0: {}
       - appium-server@0: {}
       - virtual-device-testing-for-android@1: {}
       - cache-push@2: {}
